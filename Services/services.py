@@ -20,7 +20,7 @@ nsx_mgr = '<NSX Manager fqdn>'
 urllib3.disable_warnings()
 
 # Auotmatic output directory for Excel Workbook
-os.chdir("*<Output directory fir excel file>*")
+os.chdir("<Output directory for excel file>")
 
 # Setup excel workbook and worksheets 
 dfw_wkbk = Workbook()  
