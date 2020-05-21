@@ -20,3 +20,7 @@ Information pertaining to security groups configured in the NSX environment
 ## Logical Switcches / Segments
 Information pertaining to segments & logical switches configured in the NSX environment
 
+## Distributed Firewalling
+
+Security Policies - Extracts all of the information around the security policies configured.  Does not Include The rules in each policy, just policy summary information
+
