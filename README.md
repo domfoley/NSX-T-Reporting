@@ -24,3 +24,5 @@ Information pertaining to segments & logical switches configured in the NSX envi
 
 Security Policies - Extracts all of the information around the security policies configured.  Does not Include The rules in each policy, just policy summary information
 
+## Fabric
+Scripts in here relate to NSX fabric components, such as Edge Transport Nodes, Host Transport Nodes, Transport zones etc.  Does not include anything related to logical topologies, dFW, routing etc..
