@@ -104,10 +104,10 @@ sheet1.write(2, 21, 'DAS Host State', style_db_center)
 def main():
     session = requests.session()
     session.verify = False
-    nsx_url = 'https://%s:%s' % ("10.29.13.111", 443)
+    nsx_url = 'https://%s' % ("<NSX MGR IP / FQDN>")
     connector = connect.get_requests_connector(session=session, msg_protocol='rest', url=nsx_url)
     stub_config = StubConfigurationFactory.new_std_configuration(connector)
-    security_context = create_user_password_security_context("admin", "VMware1!vmware")
+    security_context = create_user_password_security_context("<USERNAME>", "<PASSWORD>")
     connector.set_security_context(security_context)
     urllib3.disable_warnings()
     disc_node_list = []
