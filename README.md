@@ -8,6 +8,8 @@ https://code.vmware.com/web/sdk/3.0/nsx-t-python
 
 Other scripts use the API directly
 
+For formatting, I have opted to use the xlwt library to generate spreadsheet files.  The package is pure Python with no dependencies on modules or packages outside the standard Python distribution.
+
 ## NSX-Manager Info
 Information from the NSX Manager Cluster 
 
@@ -25,4 +27,4 @@ Information pertaining to segments & logical switches configured in the NSX envi
 Security Policies - Extracts all of the information around the security policies configured.  Does not Include The rules in each policy, just policy summary information
 
 ## Fabric
-Scripts in here relate to NSX fabric components, such as Edge Transport Nodes, Host Transport Nodes, Transport zones etc.  Does not include anything related to logical topologies, dFW, routing etc..
+Scripts in here relate to NSX fabric components, such as NSX Manager appliances, Edge Transport Nodes, Host Transport Nodes, Transport zones etc.  Does not include anything related to logical topologies, dFW, routing etc..
